@@ -65,7 +65,7 @@ def predict_stock_prices(model, ticker):
 st.title("주가 예측 애플리케이션")
 
 # 주식 티커 입력
-ticker = st.text_input("주식 티커를 입력하세요", "CPNG")
+ticker = st.text_input("주식 티커를 입력하세요", "AAPL")
 
 # 데이터 로드 및 모델 학습
 if st.button("데이터 로드 및 모델 학습"):
